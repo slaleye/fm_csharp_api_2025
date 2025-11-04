@@ -1,0 +1,76 @@
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+*.tlog
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+project.lock.json
+
+# Publish output
+publish/
+dist/
+wwwroot/dist/
+wwwroot/node_modules/
+node_modules/
+
+# Generated files
+Generated\ Files/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Coverage and test output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Tooling
+/.ionide/
+*.swp
+
+# Secrets (optional, if used)
+appsettings.Development.json
+secrets.json
+.env
+.env.*
+
+# Docker
+docker-compose.override.yml
+**/docker-compose*.yml
+*.dockerfile
+*.dockerignore
+
+# Local cache
+*.cache
